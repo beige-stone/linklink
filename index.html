@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="여행유튜버 즐겨찾기" />
+        <meta property="og:description" content="자주 보는 여행유튜버 추천" />
+        <meta property="og:image" content="sky.png" />
+        <title>여행유튜버 즐겨찾기</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+             font-family: "Pretendard",serif;
+            }
+            body{
+                background-color: cadetblue;
+            }
+            .profile{
+                width: 100px;
+                height: 100px;
+                
+                border-radius: 100%;
+                border: 2px solid white;
+                background-image: url('sky.png');
+                background-position:center;
+                background-size: cover;
+            }
+            .main{
+                color: white;
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: 10px;
+
+            }
+            .sub{
+                color: white;
+                font-size: 14px;
+                margin-top: 0px;
+                margin-bottom: 30px;
+
+            }
+            .wrap{
+                
+                width: 300px;
+                margin: 30px auto 0px auto ;
+                
+                 display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap > a {
+                width: 300px;
+                height: 50px;
+                background-color: white;
+                border-radius: 8px;
+                margin-bottom: 8px;
+                font-size: 14px;
+                font-weight: bold;
+                color: cadetblue;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px black;
+            }
+            .wrap > a:hover {
+                background-color: #f2f2f2;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">여행 유튜브 북마크</h1>
+            <p class="sub">세계여행 간접체험 하러 가즈아!</p>
+            <a target="_blank" href="https://www.youtube.com/c/빠니보틀PaniBottle">빠니보틀</a>
+            <a target="_blank" href="https://www.youtube.com/c/곽튜브KwakTube">곽튜브</a>
+            <a target="_blank" href="https://www.youtube.com/c/WonjiLeeLife">원지의하루</a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCaoqDZPllYXLAH_5OBRLLrw">체코재</a>
+        </div>
+        
+    </body>
+</html>
